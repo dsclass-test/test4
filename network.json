@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "iug",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "plot9829.png"
         }
     ],
     "nodes": [
@@ -42,6 +52,6 @@
             "name": "text6619.txt"
         }
     ],
-    "updated_at": "2018-10-02 04:46:31",
+    "updated_at": "2018-10-02 04:46:39",
     "url": "https://github.com/dsclass-test/test4"
 }
